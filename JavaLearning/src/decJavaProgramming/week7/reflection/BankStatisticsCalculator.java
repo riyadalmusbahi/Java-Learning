@@ -3,7 +3,7 @@ package decJavaProgramming.week7.reflection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bank {
+public class BankStatisticsCalculator {
 
     public Integer calculateTotal(List<Employee> employees) {
         Integer totalPaid = 0;

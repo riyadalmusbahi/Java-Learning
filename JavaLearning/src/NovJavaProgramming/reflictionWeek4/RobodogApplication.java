@@ -11,7 +11,7 @@ public class RobodogApplication {
     public static void main(String[] args) {
 
         FileReader reader = new FileReader();
-        List<String> robodogEncryptedInstructions = reader.asLines("NovJavaProgramming/reflictionWeek4/robodog.txt");
+        List<String> robodogEncryptedInstructions = reader.asList("NovJavaProgramming/reflictionWeek4/robodog.txt");
         System.out.println("Encrypted robodog instructions: " + robodogEncryptedInstructions);
         Set<String> decryptedRobodogInstructions = new HashSet<>();
         for (String robodogEncryptedInstruction : robodogEncryptedInstructions) {

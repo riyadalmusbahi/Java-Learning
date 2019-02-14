@@ -10,7 +10,7 @@ public class TopicReader {
     private FileReader reader = new FileReader();
 
     public List<Topic> getTopics(String filePath){
-        List<String> topicsStrings = reader.asLines(filePath);
+        List<String> topicsStrings = reader.asList(filePath);
         List<Topic> topics = new ArrayList<>();
 
         for (String topicsString : topicsStrings) {
